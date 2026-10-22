@@ -6,6 +6,7 @@ GET /api/v1/Products
   "name": "Laptop",
   "price": 25000
 }
+```
 GET /api/v2/Products
 {
   "id": 1,
@@ -13,6 +14,7 @@ GET /api/v2/Products
   "price": 19.9m,
   "category": "electroncs"
 }
+```
 # Install Package
 Install-Package Asp.Versioning.Mvc
 Install-Package Asp.Versioning.Mvc.ApiExplorer
@@ -36,8 +38,9 @@ builder.Services
             new UrlSegmentApiVersionReader();
     });
 # Make Controller
-  ProductsV1Controller
-  ProductsV2Controller
+1- ProductsV1Controller
+  
+2- ProductsV2Controller
 # Test Endpoints
 GET /api/v1/Products
 GET /api/v2/Products
