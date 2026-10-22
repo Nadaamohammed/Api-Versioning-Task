@@ -1,5 +1,6 @@
 # Api Versioning
 # Endpoints After Visioning
+```
 GET /api/v1/Products
 {
   "id": 1,
@@ -7,12 +8,13 @@ GET /api/v1/Products
   "price": 25000
 }
 ```
+```
 GET /api/v2/Products
 {
   "id": 1,
   "name": "Laptop",
   "price": 19.9m,
-  "category": "electroncs"
+  "category": "Electronics"
 }
 ```
 # Install Package
